@@ -1,0 +1,29 @@
+{
+  "name": "postcss-grouped-plugins",
+  "version": "1.0.0",
+  "description": "group multiple postcss plugins into a single plugin for nuxt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "npm version patch && git push --follow-tags",
+    "minor": "npm version minor && git push --follow-tags",
+    "major": "npm version major && git push --follow-tags",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvwzj/postcss-grouped-plugins.git"
+  },
+  "keywords": [
+    "postcss"
+  ],
+  "author": "dvwzj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvwzj/postcss-grouped-plugins/issues"
+  },
+  "homepage": "https://github.com/dvwzj/postcss-grouped-plugins#readme",
+  "dependencies": {
+    "postcss": "^8.4.38"
+  }
+}
